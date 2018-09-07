@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:8
+FROM mhart/alpine-node:10.7.0
 
 #Create the npm install layer independently
 RUN mkdir /app
@@ -11,4 +11,4 @@ ADD app /app/
 WORKDIR /app
 ENV NODE_ENV production
 EXPOSE 8080
-CMD ["node", "server.js"]
+#CMD ["node", "server.js"]

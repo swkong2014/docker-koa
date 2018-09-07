@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node server.js"
   },
+  "dependencies": {
+    "koa": "^2.5.2",
+    "nodemon": "*"
+  },
   "author": "Bhanu P Chaudhary",
   "license": "ISC"
 }
